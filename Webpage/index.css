@@ -1,0 +1,111 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER -------------------------------------------------------------------------------------------------------------------*/
+header{
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+}
+.header-link{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.header-link a, .header-link a:active{
+    text-decoration: none;
+    padding-left: 1.5rem;
+    color: #E5E7EB;
+    transition-duration: 0.2s;
+}
+.header-link a:hover{
+    color: #697585;
+    transition-duration: 0.2s;
+}
+/* HEADER END -------------------------------------------------------------------------------------------------------------------*/
+
+
+/* HERO -------------------------------------------------------------------------------------------------------------------*/
+.hero{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+.hero-text{
+    max-width: 25rem;
+}
+.hero-h1{
+    max-width: 14rem;
+}
+.hero-p{
+    color: #E5E7EB;
+}
+.hero-btn{
+    background-color: #3882f6;
+    border: #3882f6 solid;
+    border-radius: 0.35rem;
+    padding: 0.2rem 1.5rem 0.2rem 1.5rem;
+    color: #F9FAF8;
+    cursor: pointer;
+}
+.hero-img{
+    padding: 4rem;
+    background-color: #5d6775;
+    border-radius: 0.1rem;
+    display: flex;
+    align-items: center;
+}
+/* HERO END -------------------------------------------------------------------------------------------------------------------*/
+
+
+/* INFO -------------------------------------------------------------------------------------------------------------------*/
+.info-h2{
+    color: #1F2937;
+    text-align: center;
+    margin-top: 2rem;
+}
+.info img{
+    border: #3882f6 solid 0.2rem;
+    border-radius: 1rem;
+    height: 10rem;
+    width: 10rem;
+}
+.info-img-text{
+    text-align: center;
+    width: 10rem;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem 8rem 3rem 8rem;
+}
+/* INFO END -------------------------------------------------------------------------------------------------------------------*/
+
+
+/* QUOTE -------------------------------------------------------------------------------------------------------------------*/
+.quote{
+    background-color: #E5E7EB;
+    padding: 6rem;
+    display: grid;
+    align-items: center;
+}
+.quote-p{
+    max-width: 50rem;
+    font-size: 36px;
+}
+.quote-p-author{
+    margin-left: 34rem;
+    font-size: 20px;
+}
