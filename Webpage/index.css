@@ -12,11 +12,16 @@ header{
     justify-content: space-around;
     position: fixed;
     width: 100%;
+    align-items: baseline;
+}
+.header-logo{
+    font-size: 24px;
 }
 .header-link{
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+    font-size: 20px;
 }
 .header-link a, .header-link a:active{
     text-decoration: none;
@@ -35,11 +40,10 @@ header{
 .hero{
     display: flex;
     justify-content: space-around;
-    justify-items: center;
     background-color: #1F2937;
     color: #F9FAF8;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    height: 32rem;
+    padding-top: 12rem;
     padding-left: 8rem;
     padding-right: 8rem;
 }
@@ -47,10 +51,12 @@ header{
     max-width: 25rem;
 }
 .hero-h1{
-    max-width: 14rem;
+    max-width: 25rem;
+    font-size: 48px;
 }
 .hero-p{
     color: #E5E7EB;
+    font-size: 18px;
 }
 .hero-btn{
     background-color: #3882f6;
@@ -59,13 +65,20 @@ header{
     padding: 0.2rem 1.5rem 0.2rem 1.5rem;
     color: #F9FAF8;
     cursor: pointer;
+    font-size: 17px;
 }
 .hero-img{
-    padding: 4rem;
+    width: 30rem;
     background-color: #5d6775;
     border-radius: 0.1rem;
+    height: 16rem;
+    font-size: 20px;
+    margin-top: 3rem;
+}
+.hero-img p{
     display: flex;
-    align-items: center;
+    justify-content: center;
+    margin: 7.5rem 1rem 5rem 1rem;
 }
 /* HERO END -------------------------------------------------------------------------------------------------------------------*/
 
@@ -75,9 +88,11 @@ header{
     color: #1F2937;
     text-align: center;
     margin-top: 2rem;
+    font-size: 36px;
+    margin-bottom: 4rem;
 }
 .info img{
-    border: #3882f6 solid 0.2rem;
+    border: #3882f6 solid 0.3rem;
     border-radius: 1rem;
     height: 10rem;
     width: 10rem;
@@ -89,7 +104,8 @@ header{
 .info{
     display: flex;
     justify-content: space-around;
-    margin: 3rem 8rem 3rem 8rem;
+    margin: 3rem 20rem 3rem 20rem;
+    height: 20rem;
 }
 /* INFO END -------------------------------------------------------------------------------------------------------------------*/
 
@@ -99,7 +115,7 @@ header{
     background-color: #E5E7EB;
     padding: 6rem;
     display: grid;
-    align-items: center;
+    justify-content: center;
 }
 .quote-p{
     max-width: 50rem;
