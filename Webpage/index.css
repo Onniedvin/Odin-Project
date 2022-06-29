@@ -13,6 +13,7 @@ header{
     position: fixed;
     width: 100%;
     align-items: baseline;
+    box-shadow: 1px 1px 20px 1px #151b25;
 }
 .header-logo{
     font-size: 24px;
@@ -71,14 +72,14 @@ header{
     width: 30rem;
     background-color: #5d6775;
     border-radius: 0.1rem;
-    height: 16rem;
+    height: 15rem;
     font-size: 20px;
     margin-top: 3rem;
 }
 .hero-img p{
     display: flex;
     justify-content: center;
-    margin: 7.5rem 1rem 5rem 1rem;
+    margin: 7rem 1rem 5rem 1rem;
 }
 /* HERO END -------------------------------------------------------------------------------------------------------------------*/
 
@@ -104,7 +105,7 @@ header{
 .info{
     display: flex;
     justify-content: space-around;
-    margin: 3rem 20rem 3rem 20rem;
+    margin: 3rem 15rem 3rem 15rem;
     height: 20rem;
 }
 /* INFO END -------------------------------------------------------------------------------------------------------------------*/
@@ -130,7 +131,6 @@ header{
 
 /* FOOTER -------------------------------------------------------------------------------------------------------------------*/
 .footer{
-    margin-top: 2rem;
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
