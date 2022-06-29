@@ -1,11 +1,14 @@
 // output to console that script works
 console.log("Script file succesfully loaded")
 
+
+// Create popup with greeting
 /*
 let introTextToSite = "and welcome to my testing ground";
 let phrase = `Hello ${introTextToSite}`
 alert(phrase)
 */
+
 
 // let hero say good morning, day or evening based on user's time
 const time = new Date().getHours();
@@ -20,7 +23,8 @@ if (time < 10) {
 document.getElementById("welcome").innerHTML = greeting;
 
 
-/* Check user age
+// Check user age
+/*
 const AGE = prompt("How old are you")
 let checkAGE;
 if (AGE >= 18) {
