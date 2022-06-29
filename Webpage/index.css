@@ -125,3 +125,18 @@ header{
     margin-left: 34rem;
     font-size: 20px;
 }
+/* QUOTE END -------------------------------------------------------------------------------------------------------------------*/
+
+
+/* FOOTER -------------------------------------------------------------------------------------------------------------------*/
+.footer{
+    margin-top: 2rem;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+.footer-p{
+    font-size: 18px;
+}

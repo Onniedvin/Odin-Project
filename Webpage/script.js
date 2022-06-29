@@ -18,3 +18,29 @@ if (time < 10) {
   greeting = "Good evening";
 }
 document.getElementById("welcome").innerHTML = greeting;
+
+
+/* Check user age
+const AGE = prompt("How old are you")
+let checkAGE;
+if (AGE >= 18) {
+    allowAccess = "Access granted";
+}
+else if (AGE == null){
+    allowAccess = "Please refresh site and enter valid age"
+}
+else{
+    allowAccess = "Access denied. You have to be an adult!";
+}
+alert(allowAccess)
+*/
+
+
+// Greet user with my name and how old I am.
+const fName = "Onni"
+const lName = "Roivas"
+let curYear = new Date().getFullYear()
+const birYear = 2000
+let greet = "Hey! My name is" + " " + fName + " " + lName 
++ " " + "and I am" + " " + (curYear - birYear) + " " + "years old."
+ console.log(greet)
