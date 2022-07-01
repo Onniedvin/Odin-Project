@@ -40,7 +40,7 @@ alert(allowAccess)
 */
 
 
-// Greet user with my name and how old I am.
+// Greet user with my name and how old I am, inside the console.
 const fName = "Onni"
 const lName = "Roivas"
 let curYear = new Date().getFullYear()
